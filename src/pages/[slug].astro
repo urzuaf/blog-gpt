@@ -1,0 +1,36 @@
+---
+import Layout from "../components/Layout.astro";
+
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../content/*.md')
+
+  return posts.map((post : any) => ({
+    params: { 
+      slug: post.frontmatter.url
+    },
+    props: {
+      post,
+      nombre : post.frontmatter.nombre,
+      lider: post.frontmatter.lider,
+    },
+  }))
+}
+
+const { Content } = Astro.props.post
+const { nombre, lider } = Astro.props
+
+//posts.filter(post => post.frontmatter.title === Astro.params);
+---
+
+<Layout title= {nombre} >
+  <section class="mt-40 px-4 md:w-1/2 mx-auto flex flex-col gap-4">
+
+    <h1 transition:name="name" class="">{nombre}</h1>
+    <h2 class="">Lider: {lider}</h2>
+    <article class="">
+      <Content />
+    </article>
+    
+    <a href={'/'} class="">← Volver a la lista</a>
+  </section>
+</Layout> 

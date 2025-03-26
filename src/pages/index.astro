@@ -1,11 +1,39 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../components/Layout.astro";
+type semanas= {
+nombre: string
+lider:string
+url: string
+orden: number
+}
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+let contenido: semanas[] = [];
+const posts = await Astro.glob('../content/*.md');
+
+posts.forEach((post:any) => {
+  contenido.push(post.frontmatter)
+  }
+);
+
+contenido= contenido.sort((a,b)=> b.orden - a.orden)
 ---
-
-<Layout>
-	<Welcome />
+<Layout title="Blog" >
+  <section class="content-list">
+{ contenido.map((contenido, index) => {
+  return (
+    <div>
+      <a transition:name="name" href={contenido.url}>{contenido.nombre}</a>
+    </div>
+  )
+})}
+</section>
 </Layout>
+
+<style>
+  .content-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+</style>
