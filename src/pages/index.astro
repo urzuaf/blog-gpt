@@ -28,7 +28,7 @@ contenido= contenido.sort((a,b)=> a.orden - b.orden)
       <a href={contenido.url}>
         <div class="name">{contenido.nombre}</div>
         <div class="desc">
-        <h3>{contenido.titulo}</h3>
+        <h3 transition:name="name">{contenido.titulo}</h3>
         <p>{contenido.descripcion}</p>
         </div>
       </a>
