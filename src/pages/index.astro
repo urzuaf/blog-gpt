@@ -5,6 +5,8 @@ nombre: string
 lider:string
 url: string
 orden: number
+titulo: string
+descripcion: string
 }
 
 let contenido: semanas[] = [];
@@ -17,12 +19,19 @@ posts.forEach((post:any) => {
 
 contenido= contenido.sort((a,b)=> a.orden - b.orden)
 ---
-<Layout title="Blog" >
+<Layout title="GPT" >
   <section class="content-list">
+    <h2>Contenido</h2>
 { contenido.map((contenido, index) => {
   return (
-    <div>
-      <a transition:name="name" href={contenido.url}>{contenido.nombre}</a>
+    <div class="content">
+      <a href={contenido.url}>
+        <div class="name">{contenido.nombre}</div>
+        <div class="desc">
+        <h3>{contenido.titulo}</h3>
+        <p>{contenido.descripcion}</p>
+        </div>
+      </a>
     </div>
   )
 })}
@@ -30,10 +39,81 @@ contenido= contenido.sort((a,b)=> a.orden - b.orden)
 </Layout>
 
 <style>
+  a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .name{
+    background-color: #a9e991;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #071015;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+  
+  h3{
+    color: #071015;
+    padding: 1rem;
+    margin-bottom: -30px;
+  }
+  p{
+    padding: 1rem;
+    color: #1a2931;
+  }
   .content-list{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
+    max-width: 50%;
+    margin: auto;
+  }
+  .content{
+    flex-wrap: nowrap;
+    gap: .5rem;
+    border-radius: 8px;
+    width: 100%;
+    -webkit-box-shadow: 1px 9px 35px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 9px 35px -25px rgba(0,0,0,0.75);
+box-shadow: 1px 9px 35px -25px rgba(0,0,0,0.75);
+transition: all .2s ease-in-out;
+  }
+  .content:hover{
+-webkit-box-shadow: 1px 9px 35px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 9px 35px -19px rgba(0,0,0,0.75);
+box-shadow: 1px 9px 35px -19px rgba(0,0,0,0.75);
+ 
+  }
+
+  @media (max-width: 480px) {
+    .content-list{
+      max-width: 90%;
+    }
+    a{
+      flex-direction: column;
+    }
+    .name{
+      justify-content: center;
+    }
+    h3{
+      margin-top: -10px;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px){
+    .content-list{
+      max-width: 80%;
+    }
+    .content{
+      flex-direction: row;
+    }
   }
   
 </style>
