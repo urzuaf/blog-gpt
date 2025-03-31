@@ -7,6 +7,7 @@ url: string
 orden: number
 titulo: string
 descripcion: string
+draft: boolean
 }
 
 let contenido: semanas[] = [];
@@ -23,6 +24,7 @@ contenido= contenido.sort((a,b)=> a.orden - b.orden)
   <section class="content-list">
     <h2>Contenido</h2>
 { contenido.map((contenido, index) => {
+  if (contenido.draft) return null 
   return (
     <div class="content">
       <a href={contenido.url}>
