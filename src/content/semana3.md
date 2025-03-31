@@ -3,6 +3,7 @@ nombre: "Semana 3"
 lider: "Nicolás Cuadra"
 url: "semana3"
 orden: 3
+draft: true
 titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex"
 ---
