@@ -11,7 +11,9 @@ descripcion: "El principal avance de esta semana consistió en desarrollar los 2
 ## Avances semanales
 
 Durante la segunda semana nos enfocamos principalmente en redactar los informes de inicio de proyecto, reconociendo los futuros riesgos y desafios que pueden ocurrir en el desarrollo de los proyectos.
+
 Definimos que el desarrollo de ambos programas se hará en simultaneo.
+
 Se debatió sobre los plazos de los entregables, llegando a los siguientes plazos.
 
 ### Ruleta 2.0
