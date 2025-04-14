@@ -3,7 +3,7 @@ nombre: "Semana 3"
 lider: "Nicolás Cuadra"
 url: "semana3"
 orden: 3
-draft: true
+draft: false
 titulo: "Plan de Gestión de Riesgos"
 descripcion: "Esta semana se realizaron 2 documentos de gestión de riesgos, uno para cada proyecto, y se crearon 2 cartas Gantt."
 ---
