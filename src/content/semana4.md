@@ -3,22 +3,30 @@ nombre: "Semana 4"
 lider: "Nicolás Cuadra"
 url: "semana4"
 orden: 4
-draft: true
-titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex"
+draft: false
+titulo: "Finalización de la Unidad 1"
+descripcion: "Esta semana nos dedicamos a terminar de definir lo necesario para comenzar el desarrollo de los proyectos."
 ---
 
 # Avances
 
+Durante la cuarta semana nos dedicamos a terminar de definir lo necesario para comenzar el desarrollo de los proyectos, como esquemas de bases de datos, diseño de mockups, e implementación de primeras vistas.
+
+Además comenzamos a utilizar un tablero kanban en Trello para organizar las tareas que haremos durante el desarrollo del proyecto.
+
 ## Nicolás Cuadra
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Creó y gestionó el tablero Kanban.
+- Implementó las primeras vistas de la ruleta y la gestión de instancias.
 
 ## Cristian Fuentes
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Incidencia de falta de personal 🏖️
 
 ## Nicolás Lopez
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Diseñó mockups para los crawlers. 
+
 ## Maximiliano Maure
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Diseñó mockups para los crawlers.
+
 ## Fernando Urzúa
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Realizó los modelos y esquemas relacionales para ambos proyectos.
+- Implementó una primera versión de la API para la ruleta.
