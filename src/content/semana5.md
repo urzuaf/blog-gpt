@@ -1,24 +1,38 @@
 ---
-nombre: "Semana 5"
+nombre: "Semana 5-6"
 lider: "Cristian Fuentes"
-url: "semana5"
+url: "semana5-6"
 orden: 5
-draft: true
-titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex"
+draft: false
+titulo: "Implementacion de funcionalidades esenciales para los proyeyctos"
+descripcion: Durante estas semanas se desarrollaron las vistas de instancias de curso, algoritmos de aleatoriedad, se integraron procesos de scraping y documentación técnica."
 ---
 
 # Avances
 
 ## Nicolás Cuadra
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+   -Vista instancias cursos agregar instancias​
+   -Vista instancia mostrar grupos - alumnos​
+   -Vistas iniciales de los crawlers​
+   -Uso: Ubuntu Desktop
 
 ## Cristian Fuentes
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+   -Gestionar el tablero Kanban.​
+   -Subir equipos mediante archivo .csv​
+   -Integración de código​
+   -Uso: Ubuntu Desktop
 
 ## Nicolás Lopez
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+   -Validación de datos procesamiento y limpieza de los datos extraídos​
+   -Uso: Parrot OS
+
 ## Maximiliano Maure
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+   -Creación de documentación para testing ruleta y crawlers​
+   -so: Parrot OS
+
 ## Fernando Urzúa
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+   -Propuesta algoritmo de aleatoriedad​
+   -Generar resultados aleatorios sin ruleta​
+   -Propuesta aleatoriedad para la ruleta​
+   -Realizar web scraping a sitios elegidos​
+   -Uso: Linux Mint
