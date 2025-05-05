@@ -4,7 +4,7 @@ lider: "Cristian Fuentes"
 url: "semana5-6"
 orden: 5
 draft: false
-titulo: "Implementacion de funcionalidades esenciales para los proyectos"
+titulo: "Implementación de funcionalidades esenciales para los proyectos"
 descripcion: Durante estas semanas se desarrollaron las vistas de instancias de curso, algoritmos de aleatoriedad, se integraron procesos de scraping y documentación técnica."
 ---
 
