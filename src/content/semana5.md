@@ -28,7 +28,7 @@ descripcion: Durante estas semanas se desarrollaron las vistas de instancias de 
 
 ## Maximiliano Maure
    -Creación de documentación para testing ruleta y crawlers​
-   -so: Parrot OS
+   -Uso: Parrot OS
 
 ## Fernando Urzúa
    -Propuesta algoritmo de aleatoriedad​
