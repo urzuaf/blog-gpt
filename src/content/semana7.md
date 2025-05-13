@@ -1,24 +1,30 @@
 ---
 nombre: "Semana 7"
-lider: "Cristian Fuentes"
+lider: "Nicolas Lopez"
 url: "semana7"
-orden: 6
-draft: true
-titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex"
+orden: 7
+titulo: "Desarrollo de características fundamentales para los proyectos"
+draft: false
+descripcion: "Implementacion se crea vista de la ruleta, ejecucion aleatoria y un historial de los registros de ejecucion de la ruleta. Proyecto crawlers conecto front con backend y se scrapearon las fuentes"
 ---
 
 # Avances
 
+Durante estas semanas se desarrollaron las vistas de instancias de curso, algoritmos de aleatoriedad, se integraron procesos de scraping y documentación técnica.
+
 ## Nicolás Cuadra
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Implementar algoritmo de aleatoriedad en la ruleta (pruebas)
 
 ## Cristian Fuentes
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Visualización de la ruleta
 
 ## Nicolás Lopez
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Registrar historial de ejecuciones de la ruleta (backend)
+
 ## Maximiliano Maure
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Agregar y gestionar las fuentes  
+
 ## Fernando Urzúa
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis lobortis augue vel dignissim. Curabitur nec sollicitudin odio, pharetra efficitur ex. Aliquam quis convallis nibh, eu maximus diam. Sed at eros ut risus tincidunt mattis sed ac elit. Vivamus ut mollis sapien. Maecenas sagittis libero lacus, id vehicula metus vulputate non. Donec nec ipsum vestibulum, posuere tortor id, rutrum ligula. Ut luctus eros vitae leo imperdiet, nec cursus est efficitur. Vivamus vitae elementum felis, non consectetur velit. Mauris erat ligula, pharetra eu aliquet id, iaculis pellentesque tortor. 
+- Enviar los datos guardados desde el backend a las vistas correspondientes.​
+- Agregar y gestionar las fuentes
+- Reunion con el profesor interesado
