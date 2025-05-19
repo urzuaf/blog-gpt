@@ -3,9 +3,9 @@ nombre: "Semana 8"
 lider: "Maximiliano Maure"
 url: "semana8"
 orden: 8
-titulo: ""
+titulo: "Semana 8"
 draft: false
-descripcion: ""
+descripcion: "Esta semana se terminaron de implementar las fuentes de scraping y ajustes del frontend con el backend. En cuanto a la ruleta se finaliza con la implementacion de la aleatoridad y ajustes visuales en la misma."
 ---
 
 # Avances
