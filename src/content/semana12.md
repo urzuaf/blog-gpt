@@ -1,11 +1,11 @@
 ---
-nombre: "Semana 11"
+nombre: "Semana 1"
 lider: "Fernando Urzúa"
-url: "semana11"
+url: "semana12"
 orden: 11
-titulo: "Semana 11"
+titulo: "Semana 12"
 draft: false
-descripcion: "Cambio de tablero kanban kanbantool"
+descripcion: "Incidencia: Actualización de versiones de librerias"
 ---
 
 # Avances
